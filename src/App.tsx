@@ -1,7 +1,13 @@
 import React from "react";
+import IntroCard from "./components/IntroCard";
+import "./App.scss";
 
-function App() {
-  return <div></div>;
-}
+const App = (): JSX.Element => {
+  return (
+    <div className="appContainer">
+      <IntroCard />
+    </div>
+  );
+};
 
 export default App;
