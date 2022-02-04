@@ -1,0 +1,36 @@
+.aboutMeContainer {
+    margin-top: 300px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.alignAboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.aboutMeHeader {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 20px;
+    color: white;
+    font-size: 28px;
+}
+
+.detail {
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.photo {
+    width: 288px;
+    height: 360px;
+    margin-left: 100px;
+}
+

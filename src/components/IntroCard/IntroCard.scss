@@ -1,6 +1,5 @@
 .card {
     margin: 100px;
-    min-height: 400px;
     background-color: #074164;
     border-radius: 20px;
     align-content: center;
@@ -9,35 +8,29 @@
 }
 
 .cardContent {
-    margin-left: 50px;
-    margin-top: 60px;
-    overflow: hidden;
-    padding: 50px
+  margin: 50px 100px 50px 100px;
+    overflow: hidden; 
 }
 
 .header {
     color: white;
     font-size: 70px;
-    font-family: Myriad Pro;
 }
 
 .headerBlue {
     color: #00C9D1;
     font-size: 70px;
-    font-family: Myriad Pro;
 }
 
 .descriptionLineOne {
     color: #00C9D1;
     font-size: 40px;
-    font-family: Myriad Pro;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .descriptionLineTwo {
     color: white;
     font-size: 40px;
-    font-family: Myriad Pro;
     margin-top: 5px;
 }
 
