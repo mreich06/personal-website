@@ -1,12 +1,14 @@
 import React from "react";
 import "./AboutMe.scss";
 import Photo from "../../assets/me.jpeg";
+import Icon from "../../assets/terminal-icon.svg";
 
 const AboutMe = (): JSX.Element => {
   return (
     <div className="aboutMeContainer">
       <div className="alignAboutMe">
         <div>
+          <img className="terminalIcon" src={Icon} />
           <header className="aboutMeHeader">about me.</header>
           <p className="description">
             I am a full stack developer with a passion for web and mobile
