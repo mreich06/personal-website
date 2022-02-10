@@ -12,7 +12,8 @@
 .header {
     font-size: 80px;
     font-weight: bold;
-    color: white
+    color: white;
+    display: inline;
 }
 
 .description {
@@ -43,6 +44,13 @@
     align-items: center;
 }
 
+.alignlistItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+}
+
 .technologyIcon {
     width: 30px;
     height: 30px;
@@ -65,5 +73,18 @@
     margin-right: 20px
 }
 
+.listContainer {
+    margin: 6px 0px 0px 20px
+}
 
+.bulletPt {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+}
+
+.listItem {
+    font-size: 18px;
+    color: white;
+}
 

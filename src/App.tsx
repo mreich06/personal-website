@@ -1,9 +1,9 @@
 import React from "react";
-import IntroCard from "./components/IntroCard";
+import IntroCard from "./pages/IntroCard";
 import Svg from "./assets/website-background.svg";
 import "./App.scss";
-import AboutMe from "./components/AboutMe";
-import Experience from "./components/Experience";
+import AboutMe from "./pages/AboutMe";
+import Experience from "./pages/Experience";
 
 const App = (): JSX.Element => {
   return (
