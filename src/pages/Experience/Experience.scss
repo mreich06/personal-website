@@ -1,0 +1,90 @@
+.experienceContainer {
+    align-items: center;
+    margin-top: 500px;
+    background-color: #0A425C;
+    overflow: hidden
+}
+
+.experienceMargin {
+    margin: 100px 20% 100px 20%;
+} 
+
+.header {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    display: inline;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 28px;
+    color: white;
+}
+
+.detail {
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.margin {
+    margin-top: 80px;
+}
+
+.sectionRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.alignIconTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.alignlistItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.technologyIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px   
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.terminalIcon {
+    width: 50px;
+    margin-right: 20px
+}
+
+.listContainer {
+    margin: 6px 0px 0px 20px
+}
+
+.bulletPt {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+}
+
+.listItem {
+    font-size: 18px;
+    color: white;
+}
+
