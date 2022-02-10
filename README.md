@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website written in TypeScript that showcases my web development skills and experience
+This is my personal website written in TypeScript that showcases my web development skills and experience.
 
 ## Installation 
 
