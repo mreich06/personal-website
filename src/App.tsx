@@ -4,6 +4,7 @@ import Svg from "./assets/website-background.svg";
 import "./App.scss";
 import AboutMe from "./pages/AboutMe";
 import Experience from "./pages/Experience";
+import Contact from "./pages/Contact";
 
 const App = (): JSX.Element => {
   return (
@@ -12,7 +13,7 @@ const App = (): JSX.Element => {
       <img className="svgContainer" src={Svg} />
       <AboutMe />
       <Experience />
-      <div style={{ marginTop: "1000px" }}></div>
+      <Contact />
     </div>
   );
 };

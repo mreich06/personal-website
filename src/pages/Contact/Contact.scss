@@ -1,0 +1,57 @@
+.contactForm {
+    margin: 100px 0px 50px 0px
+}
+
+.name {
+    margin-bottom: 50px;
+}
+
+.alignFields {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.message {
+    margin-left: 70px;
+    width: 60%
+}
+
+.sendButton {
+    margin-top: 25px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    background: #00C9D1;
+    border-radius: 15px;
+
+}
+
+.buttonText {
+    font-size: 20px;
+    color: #092747;
+}
+
+.socialMedia {
+    margin-top: 100px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.smallFields {
+    width: 40%
+}
