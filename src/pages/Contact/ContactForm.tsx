@@ -29,8 +29,18 @@ const useStyles = makeStyles({
   },
 });
 
+type SocialMediaLinkType = {
+  icon: string;
+  link: string;
+};
+
 const ContactForm = (): JSX.Element => {
   const classes = useStyles();
+  const SocialMediaLinks: SocialMediaLinkType[] = [
+    { icon: LinkedInIcon, link: "https://github.com/mreich06" },
+    { icon: GitHubIcon, link: "https://www.linkedin.com/in/maya-reich/" },
+    { icon: CodepenIcon, link: "https://codepen.io/mreichcode" },
+  ];
   return (
     <div className="contactForm">
       <div className="alignFields">
@@ -70,11 +80,13 @@ const ContactForm = (): JSX.Element => {
       </div>
       <div className="footer">
         <div className="socialMedia">
-          <img src={LinkedInIcon} className="icon" />
-          <img src={GitHubIcon} className="icon" />
-          <img src={CodepenIcon} className="icon" />
+          {SocialMediaLinks.map((item: SocialMediaLinkType) => (
+            <a onClick={() => window.open(item.link)}>
+              <img src={item.icon} className="icon" />
+            </a>
+          ))}
         </div>
-        <p className="description">Designed and Created by Maya Reich</p>
+        <p className="description">Designed and Developed by Maya Reich</p>
       </div>
     </div>
   );

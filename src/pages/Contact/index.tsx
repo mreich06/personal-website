@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = (): JSX.Element => {
   return (
-    <div className="experienceMargin">
+    <div className="contactMargin">
       <div className="row">
         <IconHeader title={"say hello!"} icon={WavingIcon} />
       </div>
